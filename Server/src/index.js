@@ -11,12 +11,13 @@ app.get('/', (req, res)=>{
 })
 
 connectDB()
-.then(() => {
-  const PORT = process.env.PORT || 8000; 
-  app.listen(PORT, () => {
-    console.log(`Server is running on port ${PORT}`);
+  .then(() => {
+    console.log("MongoDB connected successfully"); // ✅ Add this
+    const PORT = process.env.PORT || 8000;
+    app.listen(PORT, () => {
+      console.log(`Server is running on port ${PORT}`);
+    });
+  })
+  .catch((err) => {
+    console.error("MongoDB connection failed", err);
   });
-})
-.catch((err) => {
-  console.error("MongoDB connection failed", err);
-});
