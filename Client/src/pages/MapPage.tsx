@@ -91,9 +91,9 @@ const MapPage: React.FC = () => {
 
     useEffect(() => {
         navigator.geolocation.getCurrentPosition(
-            async (pos) => {
-                const currentPos: [number, number] = [31.482140, 76.190491];
-                setPosition(currentPos);
+    async (pos) => {
+        const currentPos: [number, number] = [pos.coords.latitude, pos.coords.longitude]; // ✅ Now 'pos' is used
+        setPosition(currentPos);
 
                 try {
                     const response = await axios.get(`${API}/getAllproblems`);
