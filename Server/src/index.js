@@ -3,7 +3,7 @@ import app from './app.js'
 import connectDB from "./db/connectTomongoDb.js"
 
 dotenv.config({
-    path:'./env'
+    path:'./.env'
 })
 
 app.get('/', (req, res)=>{
