@@ -1,10 +1,8 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import { useNavigate } from 'react-router-dom';
-import { Link } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
 import toast from 'react-hot-toast';
 import { API } from '../ApiUri';
-
 
 const Login: React.FC = () => {
   const navigate = useNavigate();
@@ -19,17 +17,20 @@ const Login: React.FC = () => {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    
-    try {
-      const res = await axios.post(`${API}/loginUser`, formData);
-      localStorage.setItem('token', res.data.token);
-      localStorage.setItem('id', res.data.user._id);
 
-      navigate('/'); 
-      toast.success('Login Successful')
-    } catch (error) {
+    try {
+      const res = await axios.post(`${API}/loginUser`, formData, {
+        withCredentials: true,
+      });
+
+      localStorage.setItem('id', res.data.user._id);
+      toast.success('Login Successful');
+      navigate('/');
+    } catch (error: any) {
       console.error('Login error:', error);
-      toast.error('Invalid credentials or server error');
+      toast.error(
+        error?.response?.data?.message || 'Invalid credentials or server error'
+      );
     }
   };
 
