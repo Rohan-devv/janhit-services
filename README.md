@@ -49,7 +49,7 @@ Here's a demo video showing the functionality of the Civic Engagement Portal:
 
 ### 1. Clone the repository:
 ```bash
-git clone https://github.com/Rachit-31/Janhit.git
+git clone https://github.com/Rohan-devv/janhit-services
 
 ```
 ### 2. Install dependencies
