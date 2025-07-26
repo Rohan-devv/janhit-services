@@ -63,7 +63,7 @@ Janhit/
 ├── screenshots/          # Tech icons and preview images
 ├── docker-compose.yml    # Docker multi-container setup
 └── README.md
-<details/>
+</details>
 ⚙️ Environment Variables
 client/.env
   VITE_BACKEND_URL=http://localhost:8000
