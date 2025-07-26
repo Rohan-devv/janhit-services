@@ -2,6 +2,11 @@
 
 <p align="center">
   <img src="./screenshots/docker1.png" alt="Docker Logo" width="100" style="border-radius: 50%;"/>
+   <img src="./screenshots/express.png" width="60" style="border-radius: 50%; margin: 10px;">
+  <img src="./screenshots/JavaScript-...png" width="60" style="border-radius: 50%; margin: 10px;">
+  <img src="./screenshots/mongo.png" width="60" style="border-radius: 50%; margin: 10px;">
+  <img src="./screenshots/nodejs.png" width="60" style="border-radius: 50%; margin: 10px;">
+  <img src="./screenshots/react.png" width="60" style="border-radius: 50%; margin: 10px;">
 </p>
 
 ![Docker](https://img.shields.io/badge/Dockerized-Full%20Stack-blue?logo=docker)
