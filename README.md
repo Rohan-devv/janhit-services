@@ -1,5 +1,9 @@
 # 🏙️ Janhit – Civic Engagement Portal
 
+<p align="center">
+  <img src="./screenshots/docker.png" alt="Docker Logo" width="100"/>
+</p>
+
 ![Docker](https://img.shields.io/badge/Dockerized-Full%20Stack-blue?logo=docker)
 ![Node.js](https://img.shields.io/badge/Backend-Node.js-green?logo=node.js)
 ![React](https://img.shields.io/badge/Frontend-React-blue?logo=react)
