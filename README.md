@@ -1,21 +1,16 @@
 # 🏙️ Janhit – Civic Engagement Portal
 
 <p align="center">
-  <img src="./screenshots/docker1.png" alt="Docker Logo" width="100" style="border-radius: 50%;"/>
-   <img src="./screenshots/express.png" width="60" style="border-radius: 50%; margin: 10px;">
-  <img src="./screenshots/JavaScript-...png" width="60" style="border-radius: 50%; margin: 10px;">
-  <img src="./screenshots/mongo.png" width="60" style="border-radius: 50%; margin: 10px;">
-  <img src="./screenshots/nodejs.png" width="60" style="border-radius: 50%; margin: 10px;">
-  <img src="./screenshots/react.png" width="60" style="border-radius: 50%; margin: 10px;">
+  <img src="./screenshots/docker1.png" alt="Docker Logo" width="70" />
+  <img src="./screenshots/express.png" alt="Express Logo" width="70" />
+  <img src="./screenshots/js.png" alt="JavaScript Logo" width="70" />
+  <img src="./screenshots/mongo.png" alt="MongoDB Logo" width="70" />
+  <img src="./screenshots/nodejs.png" alt="Node.js Logo" width="70" />
+  <img src="./screenshots/react.png" alt="React Logo" width="70" />
 </p>
 
-![Docker](https://img.shields.io/badge/Dockerized-Full%20Stack-blue?logo=docker)
-![Node.js](https://img.shields.io/badge/Backend-Node.js-green?logo=node.js)
-![React](https://img.shields.io/badge/Frontend-React-blue?logo=react)
-![MongoDB](https://img.shields.io/badge/Database-MongoDB-brightgreen?logo=mongodb)
-![Status](https://img.shields.io/badge/Status-Active-success)
 
----
+
 
 ## 📖 Overview
 
