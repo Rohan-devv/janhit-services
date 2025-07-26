@@ -99,5 +99,8 @@ docker-compose up --build
 Pull requests are welcome! For major changes, open an issue first to discuss what you'd like to improve or add.
 
 
+<details> <summary><code>client/.env</code></summary>
+VITE_BACKEND_URL=http://localhost:8000
+
 
 
