@@ -1,4 +1,13 @@
-# Janhit
+# 🚀 janhit-services – Your City, Your Voice
+
+<p align="center">
+  <img src="./screenshots/docker1.png" alt="Docker Logo" width="60" style="border-radius: 50%; margin: 10px;" />
+  <img src="./screenshots/express.png" alt="Express Logo" width="60" style="border-radius: 50%; margin: 10px;" />
+  <img src="./screenshots/js.png" alt="JavaScript Logo" width="60" style="border-radius: 50%; margin: 10px;" />
+  <img src="./screenshots/mongo.png" alt="MongoDB Logo" width="60" style="border-radius: 50%; margin: 10px;" />
+  <img src="./screenshots/nodejs.png" alt="Node.js Logo" width="60" style="border-radius: 50%; margin: 10px;" />
+  <img src="./screenshots/react.png" alt="React Logo" width="60" style="border-radius: 50%; margin: 10px;" />
+</p>
 
 ## Overview
 This is a MERN stack-based Civic Engagement Portal that allows local residents to report civic issues, vote on them, and track their resolution. It uses a map-based interface for real-time issue tracking, allowing users to easily raise and resolve local problems.
@@ -49,7 +58,7 @@ Here's a demo video showing the functionality of the Civic Engagement Portal:
 
 ### 1. Clone the repository:
 ```bash
-git clone https://github.com/Rohan-devv/janhit-services.git
+git clone https://github.com/Rachit-31/Janhit.git
 
 ```
 ### 2. Install dependencies
@@ -86,3 +95,7 @@ Server: Create a .env file in the Server directory and add your MongoDB URI and 
    npm run dev
 ## Contributing
 If you'd like to contribute to this project, feel free to fork the repository, create a feature branch, and submit a pull request.
+
+## Contact
+- Rachit Jain: rachitjainjaipur@gmail.com
+- Om Shukla: omshukla2403@gmail.com
