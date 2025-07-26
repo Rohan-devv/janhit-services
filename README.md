@@ -17,7 +17,7 @@ This is a MERN stack-based Civic Engagement Portal that allows local residents t
 - **Voting system**: Other users can can give severity rating on reported problems to prioritize them. If severity is greater than  or equal to 3 then vote is count of that problem
 - **Issue management**: Municipality and government officials can view and resolve reported problems.
 - **Comment and rating system**: Users can add comments, and track their status.
-
+- **🌍 Fully Dockerized app with MongoDB container
 ---
 
 ## Demo
