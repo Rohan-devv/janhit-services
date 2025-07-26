@@ -1,7 +1,7 @@
 # 🏙️ Janhit – Civic Engagement Portal
 
 <p align="center">
-  <img src="./screenshots/docker.png" alt="Docker Logo" width="100"/>
+  <img src="./screenshots/docker.png" alt="Docker Logo" width="100" style="border-radius: 50%;"/>
 </p>
 
 ![Docker](https://img.shields.io/badge/Dockerized-Full%20Stack-blue?logo=docker)
