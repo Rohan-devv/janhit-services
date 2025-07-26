@@ -1,4 +1,4 @@
-# 🏙️ Janhit – Civic Engagement Portal
+#  janhit-services – Your city, Your Voice
 
 <p align="center">
   <img src="./screenshots/docker1.png" alt="Docker Logo" width="70" />
