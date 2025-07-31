@@ -284,13 +284,12 @@ We welcome contributions! Here's how you can help:
 
 ### Team Members
 - **Rohan Pal** - [rohan49421@gmail.com](mailto:rohan49421@gmail.com)
-- **Rachit** - Project Lead
-- **Development Team** - Janhit Services
+- **Development Team** - janhit-services
 
 ### 📧 Get in Touch
 - **Email**: rohan49421@gmail.com
-- **GitHub**: [Rachit-31](https://github.com/Rachit-31)
-- **Project**: [Janhit Repository](https://github.com/Rachit-31/Janhit)
+- **GitHub**: [Rohan-devv](https://github.com/Rohan-devv/janhit-services)
+- **Project**: [Janhit Repository](https://github.com/Rohan-devv/janhit-services)
 
 ---
 
@@ -304,5 +303,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
   <p><strong>Made with ❤️ for better civic engagement</strong></p>
   <p>Empowering citizens to make their cities better, one issue at a time.</p>
 </div>
-   
- 
