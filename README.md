@@ -304,3 +304,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
   <p><strong>Made with ❤️ for better civic engagement</strong></p>
   <p>Empowering citizens to make their cities better, one issue at a time.</p>
 </div>
+   
+ 

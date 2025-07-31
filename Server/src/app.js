@@ -5,7 +5,6 @@ import cookieParser from "cookie-parser";
 const app = express();
 
 
-
 // const cors = require("cors");
 
 const allowedOrigins = [
