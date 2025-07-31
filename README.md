@@ -112,7 +112,7 @@ janhit-services/
 ### Using Docker (Recommended)
 ```bash
 # Clone the repository
-git clone https://github.com/Rachit-31/Janhit.git
+git clone https://github.com/Rohan-devv/janhit-services.git
 cd janhit-services
 
 # Start all services
