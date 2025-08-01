@@ -118,10 +118,22 @@ cd janhit-services
 # Start all services
 docker-compose up --build
 
+# Or run in background
+docker-compose up -d
+
 # Access the application
 # Frontend: http://localhost:5173
 # Backend: http://localhost:8000
 # MongoDB: localhost:27017
+
+# Stop services
+docker-compose down
+
+# View logs
+docker-compose logs -f
+
+# Rebuild if needed
+docker-compose up --build --force-recreate
 ```
 
 ### Manual Setup
@@ -152,6 +164,25 @@ cd ../Client && npm run dev
 - **Storage**: 2GB free space
 - **Network**: Stable internet connection
 
+### Docker Troubleshooting
+```bash
+# If port conflicts occur
+netstat -ano | findstr :8000
+taskkill /PID <process_id> /F
+
+# If container name conflicts
+docker rm -f mongo
+
+# Clean Docker cache
+docker system prune -a
+
+# Check running containers
+docker ps
+
+# View container logs
+docker logs <container_name>
+```
+
 ---
 
 ## 🔧 Configuration
@@ -165,7 +196,7 @@ PORT=8000
 NODE_ENV=development
 
 # Database
-MONGO_URI=mongodb://localhost:27017/janhit-services
+MONGO_URI=mongodb://mongo:27017/janhit-services
 
 # Authentication
 ACCESS_TOKEN_SECRET=your-super-secret-jwt-key-here
